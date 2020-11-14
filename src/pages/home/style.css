@@ -54,6 +54,11 @@ nav li{
         text-decoration: underline;
     }
 
+.navLogo{
+    height: 60px;
+    width: 60px;
+}
+
 .wppButton {
     font-size: 24px;
     color: white;

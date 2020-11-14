@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <body>
       <nav>
-        <div><img src={logo} alt="logo" /></div>
+        <div ><img src={logo} alt="logo" className='navLogo' /></div>
         <ul>
           <li>
             Nossos Serviços
