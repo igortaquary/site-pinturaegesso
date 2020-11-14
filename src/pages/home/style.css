@@ -26,6 +26,10 @@ header{
     font-size: 20px;
 }
 
+main{
+    margin: 10px 20px;
+}
+
 header a{
     text-decoration: none;
 }
@@ -41,16 +45,18 @@ nav{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px 50px;
+    padding: 0px 10px;
 }
+
 nav ul{
         list-style: none;
         display: flex;
         flex-direction: row;
-        margin: 0 50px 0 auto; 
+        margin: 0 20px 0 auto; 
     }
 nav li{
         margin: 0 20px;
+        cursor: pointer;
         text-decoration: underline;
     }
 
@@ -77,6 +83,34 @@ nav li{
     padding: 5px 10px;
     border-radius: 5px;
     align-items: center;
-    justify-content: center;
+    
     margin-bottom: 10px;
+}
+
+.segmento{
+    margin: 20px 0px;
+}
+
+.segmento h1{
+    text-align: center;
+}
+
+.segmento p{
+    margin: 10px 0px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.segmento li{
+    list-style: none;
+    text-align: justify;
+}
+.segmento li p{
+    text-align: left;
+}
+
+@media (max-width: 400px){
+    nav{
+        font-size: 1rem
+    }
 }
