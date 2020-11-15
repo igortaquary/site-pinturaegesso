@@ -66,7 +66,7 @@ export default function Home() {
         </div>
         <hr />
         <div className='segmento' name='servicos'>
-          <img className='imagem' src={atendente}></img> <br />
+          <img className='imagem' src={atendente} alt="atendente"></img> <br />
           <h1><MdRoomService /> Nossos Serviços</h1>
           <p>
             A <b>Service</b> desempenha todos os serviços, seja eles pequeno ou grande porte como reformas estruturais ou estéticas. <br />
@@ -87,7 +87,7 @@ export default function Home() {
                 </p>
               </li>
               <img className='imagem' style={{ height: '200px' }}
-                src={ferramentas}></img>
+                src={ferramentas} alt="ferramentas" />
               <li>
                 <h3>Trabalhos em Gesso</h3>
                 <p>
@@ -112,7 +112,7 @@ export default function Home() {
               </li>
             </ul>
           </p>
-          <img className='imagem' src={ferramentas2}></img>
+          <img className='imagem' src={ferramentas2} alt="ferramentas" />
         </div>
         <hr />
         <div className='segmento' name='contato'>
@@ -126,7 +126,7 @@ export default function Home() {
             <a href='https://api.whatsapp.com/send?phone=55619943299791' target='blank'>
               <FaPhoneAlt /><FaWhatsapp color='#34af23' />(61) 99432-9979
             </a>
-            <a href=''><FaPhoneAlt />(61) 4101-0575</a> <br />
+            <a href='tel:6141010575'><FaPhoneAlt />(61) 4101-0575</a> <br />
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSchCsfiKJJl3A-krDW3trxSg0_xEUQ-e-nr7WJlK_HAUp4JUQ/viewform?usp=sf_link"
               target="blank">
               <div className='orcamentoButton' style={{ fontSize: '1.1rem' }}><FaWpforms /> Contacte-nos</div>
