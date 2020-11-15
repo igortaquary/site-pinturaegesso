@@ -1,7 +1,7 @@
 import React from "react";
 import './style.css';
 import { Link } from 'react-scroll';
-import logo from '../../assets/logoCriado.png';
+import logo from '../../assets/logoCriadoRecortado.png';
 
 import { FaPhoneAlt, FaWhatsapp, FaWpforms } from 'react-icons/fa'
 import { GoMail } from 'react-icons/go'
@@ -33,6 +33,11 @@ export default function Home() {
       </nav>
       <header>
         <img src={logo} alt="logo" />
+        <div className='TituloPrincipal'>
+          <h1>Service</h1>
+          <h2>Pintura, Gesso &</h2>
+          <h2>Elétrica</h2>
+        </div>
         <br />
         Fale conosco via
         <a href="https://api.whatsapp.com/send?phone=5561994329979" target="blank">
@@ -58,6 +63,7 @@ export default function Home() {
         </div>
         <hr />
         <div className='segmento' name='servicos'>
+          <img className='imagem' src='http://brasiliaconstrucaoereforma.com.br/images/home.jpg'></img> <br />
           <h1><MdRoomService /> Nossos Serviços</h1>
           <p>
             A <b>Service</b> desempenha todos os serviços, seja eles pequeno ou grande porte como reformas estruturais ou estéticas. <br />
@@ -77,6 +83,8 @@ export default function Home() {
                   - Textura.
                 </p>
               </li>
+              <img className='imagem' style={{ height: '200px' }}
+                src='https://imagensemoldes.com.br/wp-content/uploads/2020/08/Foto-Ferramentas-PNG-1200x675.png'></img>
               <li>
                 <h3>Trabalhos em Gesso</h3>
                 <p>
@@ -101,6 +109,7 @@ export default function Home() {
               </li>
             </ul>
           </p>
+          <img className='imagem' src='https://st2.depositphotos.com/6235482/10449/i/950/depositphotos_104490682-stock-photo-hands-with-tools.jpg'></img>
         </div>
         <hr />
         <div className='segmento' name='contato'>
@@ -110,13 +119,14 @@ export default function Home() {
             das 8:00 as 20:00
           </p>
           <p className='contatos'>
-            Telefone para contato: <br />
+            Telefones para contato: <br />
             <a href='https://api.whatsapp.com/send?phone=55619943299791' target='blank'>
               <FaPhoneAlt /><FaWhatsapp color='#34af23' />(61) 99432-9979
-            </a> <br />
+            </a>
+            <a><FaPhoneAlt />(61) 4101-0575</a> <br />
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSchCsfiKJJl3A-krDW3trxSg0_xEUQ-e-nr7WJlK_HAUp4JUQ/viewform?usp=sf_link"
               target="blank">
-              <div className='orcamentoButton' style={{ fontSize: '1.1rem' }}><FaWpforms /> Formulário de orçamento</div>
+              <div className='orcamentoButton' style={{ fontSize: '1.1rem' }}><FaWpforms /> Contacte-nos</div>
             </a><br />
             Email para contato: <br />
             <a href='mailto:servicepinturaegesso@gmail.com'>
