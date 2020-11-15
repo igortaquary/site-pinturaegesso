@@ -10,5 +10,5 @@ module.exports = {
     siteUrl: `https://servicepinturaegesso.netlify.app/`,
     description: `Service: pintura, gesso e eletrica`,
   },
-  plugins: [],
+  plugins: [`gatsby-plugin-react-helmet`],
 }
