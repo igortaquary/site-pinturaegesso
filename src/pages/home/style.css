@@ -1,14 +1,14 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: Kodchasan;
+    /*font-family: Geneva, Tahoma, sans-serif;*/
+    font-family: cursive;
 
     --tom-branco: rgb(231, 231, 231);
 }
 
 
 body {
-    height: 4000px;
     width: 100%;
     background-color: var(--tom-branco);
 }
@@ -77,11 +77,13 @@ nav li{
 }
 
 .orcamentoButton {
+    width: fit-content;
     font-size: 24px;
     color: black;
     background-color: var(--tom-branco);
     padding: 5px 10px;
     border-radius: 5px;
+    border: black 1px solid;
     align-items: center;
     
     margin-bottom: 10px;
@@ -89,15 +91,22 @@ nav li{
 
 .segmento{
     margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .segmento h1{
+    display: flex;
+    justify-content: last baseline;
+    align-items: center;
     text-align: center;
 }
 
 .segmento p{
     margin: 10px 0px;
-    font-size: 24px;
+    font-size: 1.1rem;
     text-align: center;
 }
 
@@ -109,8 +118,29 @@ nav li{
     text-align: left;
 }
 
+.segmento a{
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    text-decoration: none;
+    text-decoration: underline;
+    color: inherit;
+}
+
+.contatos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 @media (max-width: 400px){
     nav{
         font-size: 1rem
     }
+}
+
+footer{
+    text-align: right;
+    padding-right: 10px;
 }
