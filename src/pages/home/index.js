@@ -60,19 +60,43 @@ export default function Home() {
         <div className='segmento' name='servicos'>
           <h1><MdRoomService /> Nossos Serviços</h1>
           <p>
-            A <b>Service</b> desempenha todos os serviços, seja eles pequeno ou grande porte como reformas estruturais ou estéticas.
+            A <b>Service</b> desempenha todos os serviços, seja eles pequeno ou grande porte como reformas estruturais ou estéticas. <br />
+            Buscamos sempre atender com excelência nossos clientes para a sua satisfação com um serviço de qualidade.
             <ul>
               <li>
                 <h3>Pintura</h3>
                 <p>
-                  Realizamos pintura predial, comercial e residencial.
-                  Tratamos fissuras, trincas e infiltrações com tintas e produtos impermeabilizantes.
+                  Realizamos pintura predial, comercial e residencial. <br />
+                  Tratamos fissuras, trincas e infiltrações com tintas e produtos impermeabilizantes. <br />
+                  Fazemos restauração e pintura de fachadas. <br /><br />
+                  Tipos de pintura: <br />
+                  - Grafiato; <br />
+                  - Pintura lisa; <br />
+                  - Marmorato; <br />
+                  - Toque de brilho; <br />
+                  - Textura.
                 </p>
               </li>
               <li>
                 <h3>Trabalhos em Gesso</h3>
                 <p>
-
+                  - Fazemos parede (dry wall); <br />
+                  - Sanca; <br />
+                  - Forro de gesso acartonado; <br />
+                  - Cortineiro <br />
+                </p>
+              </li>
+              <li>
+                <h3>Elétrica</h3>
+                <p>
+                  Realizamos todos os serviços de elétrica predial e residencial, <br />
+                  seguindo as recomendações e padrões da ABNT 5410 (Associação Brasileira de Normas Técnicas) e norma reguladora <br />
+                — segurança em instalações e serviços de eletricidade, tendo em virtude nossos seguintes serviços: <br /><br />
+                - Instalações predial e condomínios; <br />
+                - Instalações residencial e comercial; <br />
+                - Adequação e instalação de quadros; <br />
+                - Circuitos de distribuição; <br />
+                - Aterramento.
                 </p>
               </li>
             </ul>
@@ -92,7 +116,7 @@ export default function Home() {
             </a> <br />
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSchCsfiKJJl3A-krDW3trxSg0_xEUQ-e-nr7WJlK_HAUp4JUQ/viewform?usp=sf_link"
               target="blank">
-              <div className='orcamentoButton'><FaWpforms /> Formulário de orçamento</div>
+              <div className='orcamentoButton' style={{ fontSize: '1.1rem' }}><FaWpforms /> Formulário de orçamento</div>
             </a><br />
             Email para contato: <br />
             <a href='mailto:servicepinturaegesso@gmail.com'>

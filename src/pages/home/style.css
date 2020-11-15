@@ -52,10 +52,12 @@ nav ul{
         list-style: none;
         display: flex;
         flex-direction: row;
-        margin: 0 20px 0 auto; 
+        margin: 0 20px 0 auto;
+        justify-content: center; 
+        align-items: center;
     }
 nav li{
-        margin: 0 20px;
+        margin: 0 10px;
         cursor: pointer;
         text-decoration: underline;
     }
@@ -136,7 +138,10 @@ nav li{
 
 @media (max-width: 400px){
     nav{
-        font-size: 1rem
+        font-size: 1.1rem
+    }
+    nav ul{
+        margin: 0 10px 0 auto;
     }
 }
 
