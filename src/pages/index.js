@@ -17,6 +17,15 @@ const index = () => {
                 <meta property="og:description" content="A Service é uma empresa especializada em serviços de pintura, manutenção, gesso e acabamento em geral." />
                 <meta property="og:url" content="https://servicepinturaegesso.netlify.app/" />
                 <meta property="og:image" content={img} />
+
+                <script async src="https://www.googletagmanager.com/gtag/js?id=AW-787087075"></script>
+                <script>
+                    window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments)}
+                gtag('js', new Date());
+
+                gtag('config', 'AW-787087075');
+                </script>
             </Helmet>
             <Home></Home>
         </>
