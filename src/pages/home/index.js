@@ -43,7 +43,7 @@ export default function Home() {
         </div>
         <br />
         Fale conosco via
-        <a href="https://api.whatsapp.com/send?phone=5561994329979" target="blank">
+        <a href="https://api.whatsapp.com/send?phone=5561991471323" target="blank">
           <div className='wppButton'>
             <FaWhatsapp /> Whatsapp
           </div>
@@ -123,8 +123,8 @@ export default function Home() {
           </p>
           <p className='contatos'>
             Telefones para contato: <br />
-            <a href='https://api.whatsapp.com/send?phone=55619943299791' target='blank'>
-              <FaPhoneAlt /><FaWhatsapp color='#34af23' />(61) 99432-9979
+            <a href='https://api.whatsapp.com/send?phone=5561991471323' target='blank'>
+              <FaPhoneAlt /><FaWhatsapp color='#34af23' />(61) 9 9147-1323
             </a>
             <a href='tel:6141010575'><FaPhoneAlt />(61) 4101-0575</a> <br />
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSchCsfiKJJl3A-krDW3trxSg0_xEUQ-e-nr7WJlK_HAUp4JUQ/viewform?usp=sf_link"
